@@ -1,3 +1,5 @@
+// inspiration for styling. From Frontend Masters intro to React. 
+
 * {
   box-sizing: border-box;
   color: #333;
@@ -90,13 +92,13 @@ body {
 header > a,
 #root > div > h1 {
   display: inline-block;
-  background-image: url(http://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-logo.png);
+  // background-image: url(http://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-logo.png);
   filter: brightness(150%);
-  width: 279px;
-  height: 76px;
-  overflow: hidden;
-  text-indent: -9999px;
-  margin: 20px 0;
+  // width: 279px;
+  // height: 76px;
+  // overflow: hidden;
+  // text-indent: -9999px;
+  // margin: 20px 0;
 }
 
 .pet h2 {
