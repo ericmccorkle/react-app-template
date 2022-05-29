@@ -1,4 +1,5 @@
-import { render } from "react-dom";
+import React from "react";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Pet from "./Pet";
 
 const App = () => {
@@ -12,4 +13,4 @@ const App = () => {
   );
 };
 
-render(<App />, document.getElementById("root"));
+export default App;
